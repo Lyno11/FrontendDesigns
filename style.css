@@ -2,12 +2,21 @@
     height: 150px;
     width: 150px;
     border-radius: 100%;
-    background: #BC002D;
-    
-    /* 
-    Challenge:
-    Translate this into using the margin shorthand. 
-    */
-    
+    background: #BC002D;     
     margin: 40px auto;
+    font-family: Magic, cursive;
+    text-align: center;
+    
 }
+
+@font-face {
+    font-family: Magic ;
+    src: url("MistletoeMagic.ttf");
+}
+/*THIS FONT IS FREE FOR PERSONAL USE...
+Commercial license font is available there :
+thomasaradea@gmail.com
+admin@letterara.com
+https://letterara.com/product/mistletoe-magic/
+https://www.1001fonts.com/classic+romantic-fonts.html?page=2 */
+
