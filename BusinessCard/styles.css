@@ -1,0 +1,42 @@
+body {
+    margin: 10px;
+    font-family:  sans-serif, Arial, Helvetica;
+}
+
+.myBorder {
+    border: 1px dotted rgb(106, 0, 255);
+    border-radius: 5px;
+}
+
+.avatar {
+    width: 100px;
+}
+
+.card {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    margin:0 auto;
+    width: 400px;
+    text-align: center;    
+    color:#170f11;
+    border-bottom: 10px solid #402039;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px 5px #888888;
+   /* transition: transform 0.6s ease;*/
+    
+}
+.my-element {
+  background-color:#5C164E;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* State when hovered */
+.my-element:hover {
+  background-color: #9B287B; /* New style on hover */
+}    
+/*
+.card:hover {
+    transform: rotate(360deg);
+}*/
+
