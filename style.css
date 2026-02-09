@@ -1,22 +1,28 @@
-.red-circle {
-    height: 150px;
-    width: 150px;
-    border-radius: 100%;
-    background: #BC002D;     
-    margin: 40px auto;
-    font-family: Magic, cursive;
-    text-align: center;
+.container {
+    border: 8px solid #016a26;
+    height: 260px;
+    /*     
+    justify-content:
+    start, center, end, space-around, 
+    space-evenly, space-between
+    
+    align-items:
+    start, center, end
+    */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    
     
 }
 
-@font-face {
-    font-family: Magic ;
-    src: url("MistletoeMagic.ttf");
+.item {
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    padding: 10px;
+    font-size: 50px;
+    border: 2px solid black;
+    background: linear-gradient(#14463d, #016a26);
 }
-/*THIS FONT IS FREE FOR PERSONAL USE...
-Commercial license font is available there :
-thomasaradea@gmail.com
-admin@letterara.com
-https://letterara.com/product/mistletoe-magic/
-https://www.1001fonts.com/classic+romantic-fonts.html?page=2 */
-
