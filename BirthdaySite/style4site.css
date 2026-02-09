@@ -1,0 +1,89 @@
+.site-body {
+    font-family: 'Happy Monkey', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(135deg, rgb(0, 157, 255), #F7A1B5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.happy-monkey-regular {
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 1px black; 
+}
+
+#age {
+    background: #EFB0C9;
+    border-radius: 1px;
+    padding: 1px 5px;
+} 
+#date {
+    background: #EFB0C9;
+    border-radius: 1px;
+    padding: 1px 5px;
+    margin-top:0px;
+}
+
+#img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 7px solid #EFB0C9;
+}
+
+.gift-section {
+    margin-top: 0px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("../images/Gift.png");
+    background-size: cover;
+        
+}
+
+#gift-img1:hover {
+    background-image: url("../images/GiftOpen.webp");        
+}
+
+
+#gift-img2:hover {
+    background-image: url("../images/Gift2.webp");        
+}
+
+
+#gift-img3:hover {
+    background-image: url("../images/gift3.webp");        
+}   
+
+#gift-img4 {
+    height: 150px;
+}
+#gift-img4:hover {
+    background-image: url("../images/myBoi.webp");   
+    height: 150px;     
+}
+
+.footer {
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-style: italic;
+}
